@@ -10,3 +10,28 @@ On a high-level here is how the architecture and the flow looks like:
 
 Once you create 3 servers using t3.micro on N.Virginia using the above image make sure you attach a security create named allow-all that allows all-inbound from 0.0.0.0/0 proceed with 001-frontend
 
+                    EXPENSE APP
+                         |
+          ┌──────────────┼──────────────┐
+          ↓              ↓              ↓
+       ReactJS         NodeJS         MySQL
+          |              |              |
+        Nginx          SystemD        Database
+          |              |              |
+          └──────────────┼──────────────┘
+                         ↓
+                  Infrastructure
+                         ↓
+                      Terraform
+                         ↓
+                       Docker
+                         ↓
+                       CI/CD
+                         ↓
+                     Security
+                         ↓
+                   Monitoring
+                         ↓
+                  Backup / DR
+                         ↓
+                Production Ready
