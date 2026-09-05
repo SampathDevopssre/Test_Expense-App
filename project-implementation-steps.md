@@ -1,3 +1,4 @@
+```
 1.
 VPC: 
 VPC Name:   expense-dev-vpc
@@ -11,6 +12,7 @@ Inbound = traffic coming INTO the server.
 Outbound = traffic going OUT FROM the server.
 expense-dev-frontend-sg
 sg-020ecbc4b50f70894
+```
 ```
 [ ] Terraform creates complete infrastructure
 [ ] 3 EC2 instances running
