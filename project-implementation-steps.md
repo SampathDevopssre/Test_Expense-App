@@ -11,7 +11,7 @@ Inbound = traffic coming INTO the server.
 Outbound = traffic going OUT FROM the server.
 expense-dev-frontend-sg
 sg-020ecbc4b50f70894
-
+```
 [ ] Terraform creates complete infrastructure
 [ ] 3 EC2 instances running
 [ ] SSH restricted to admin/VPN IP
@@ -24,3 +24,4 @@ sg-020ecbc4b50f70894
 [ ] Application survives basic restart testing
 [ ] Terraform can destroy environment
 [ ] Terraform can recreate environment
+````
